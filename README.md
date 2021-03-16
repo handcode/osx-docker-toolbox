@@ -19,6 +19,9 @@ cp .versions.dist .versions
 
 #### Install docker tools 
 
+Depending on the destination path ($INSTALL_BASE_DIR) defined in `.version` config one will need root permissions to install.
+If so, open root shell via `sudo bash` before running `make`
+
 install all tools:
 ```
 make all
